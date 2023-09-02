@@ -1,0 +1,26 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Source/PAS/.vs
+/Source/PAS/PAS/bin/Debug/net7.0
+/Source/PAS/PAS/obj
+/Source/PAS/PAS.API/bin/Debug/net7.0
+/Source/PAS/PAS.API/obj
+/Source/PAS/PAS.DBEngine/obj
+/Source/PAS/PAS.Framework/obj
+/Source/PAS/PAS.Framework/bin/Debug/net7.0
+/Source/PAS/PAS.Model/bin/Debug/net7.0
+/Source/PAS/PAS.Model/obj
+/Source/PAS/PAS.Repository/obj
+/Source/PAS/PAS.Serivce/bin/Debug/net7.0
+/Source/PAS/PAS.Serivce/obj
+/Source/PAS/PASy.Repository/bin/Debug/net7.0
+/Source/PAS/PASy.Repository/obj
+/Source/WebApplication1/.vs
+/Source/WebApplication1/WebApplication1/obj
+/Source/PAS/PAS.DBEngine/bin/Debug/net7.0
+/Source/PAS/PAS2/bin/Debug/net7.0
+/Source/PAS/PAS2/obj
+/Source/PAS/PAS2
