@@ -1,0 +1,355 @@
+﻿@{
+    Layout =null;
+  
+    ViewData["Title"] = "Login";
+
+    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PAS.MVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PAS.MVC.styles.css" asp-append-version="true" />
+
+    <link href="~/css/lib/font-awesome.min.css" rel="stylesheet">
+    <link href="~/css/lib/themify-icons.css" rel="stylesheet">
+    <link href="~/css/lib/jsgrid/jsgrid-theme.min.css" rel="stylesheet">
+    <link href="~/css/lib/jsgrid/jsgrid.min.css" type="text/css" rel="stylesheet">
+    <link href="~/css/lib/menubar/sidebar.css" rel="stylesheet">
+    <link href="~/css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/lib/helper.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/css/lib/menubar/sidebar.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="~/css/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
+    <link href="~/css/lib/chartist/chartist.min.css" rel="stylesheet">
+    <link href="~/css/lib/font-awesome.min.css" rel="stylesheet">
+    <link href="~/css/lib/themify-icons.css" rel="stylesheet">
+    <link href="~/css/lib/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/css/lib/owl.theme.default.min.css" rel="stylesheet">
+    <link href="~/css/lib/weather-icons.css" rel="stylesheet">
+    <link href="~/css/lib/menubar/sidebar.css" rel="stylesheet">
+    <link href="~/css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/lib/helper.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+   
+   
+
+    <div class="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures">
+        <div class="nano has-scrollbar">
+            <div class="nano-content active" tabindex="0" style="right: -15px;">
+                <ul class="d-block">
+                    <div class="logo">
+                        <a href="index.html">
+                           <span>PAS</span>
+                        </a>
+                     
+                    </div>
+                    <li class="active"><a asp-controller="Dashboard" asp-action="Dashboard"><i class="ti-view-grid"></i> Dashboard </a></li>
+                    <li><a asp-controller="Administrations" asp-action="Administrations"><i class="ti-id-badge"></i> Administrations</a></li>
+                    <li><a asp-controller="ProjectAllotment" asp-action="MentorGrid"><i class="ti-view-grid"></i> MentorDetails</a></li>
+                    <li><a asp-controller="ProjectAllotment" asp-action="ProjectGride"><i class="ti-view-grid"></i>Project Details</a></li>
+                    <li><a href="chartjs.html">Allotment Project</a></li>
+      
+                    <li><a asp-controller="Report" asp-action="Report"><i class="ti-pencil-alt"></i>Reports</a></li>
+                 
+                    <li><a asp-controller="Login" asp-action="Login"><i class="ti-close"></i>Logout</a></li>
+                </ul>
+            </div>
+            <div class="nano-pane"><div class="nano-slider" style="height: 107px; transform: translate(0px, 0px);"></div></div>
+        </div>
+    </div>
+    
+
+   <div class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="float-left">
+                        <div class="hamburger sidebar-toggle">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="float-right">
+                        <div class="dropdown dib">
+                            <div class="header-icon" data-toggle="dropdown">
+                                <i class="ti-bell"></i>
+                                <div class="drop-down dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-content-heading">
+                                        <span class="text-left">Recent Notifications</span>
+                                    </div>
+                                    <div class="dropdown-content-body">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="">
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp pull-right">
+                                                            02:34
+                                                            PM
+                                                        </small>
+                                                        <div class="notification-heading">Mr. John</div>
+                                                        <div class="notification-text">5 members joined today </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="">
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp pull-right">
+                                                            02:34
+                                                            PM
+                                                        </small>
+                                                        <div class="notification-heading">Mariam</div>
+                                                        <div class="notification-text">likes a photo of you</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="">
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp pull-right">
+                                                            02:34
+                                                            PM
+                                                        </small>
+                                                        <div class="notification-heading">Tasnim</div>
+                                                        <div class="notification-text">
+                                                            Hi Teddy, Just wanted to let you
+                                                            ...
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="">
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp pull-right">
+                                                            02:34
+                                                            PM
+                                                        </small>
+                                                        <div class="notification-heading">Mr. John</div>
+                                                        <div class="notification-text">
+                                                            Hi Teddy, Just wanted to let you
+                                                            ...
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="#" class="more-link">See All</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown dib">
+                            <div class="header-icon" data-toggle="dropdown">
+                                <i class="ti-email"></i>
+                                <div class="drop-down dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-content-heading">
+                                        <span class="text-left">2 New Messages</span>
+                                        <a href="email.html">
+                                            <i class="ti-pencil-alt pull-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-content-body">
+                                        <ul>
+                                            <li class="notification-unread">
+                                                <a href="#">
+                                                    <img class="pull-left m-r-10 avatar-img" src="images/avatar/1.jpg" alt="">
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp pull-right">
+                                                            02:34
+                                                            PM
+                                                        </small>
+                                                        <div class="notification-heading">Michael Qin</div>
+                                                        <div class="notification-text">
+                                                            Hi Teddy, Just wanted to let you
+                                                            ...
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="notification-unread">
+                                                <a href="#">
+                                                    <img class="pull-left m-r-10 avatar-img" src="images/avatar/2.jpg" alt="">
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp pull-right">
+                                                            02:34
+                                                            PM
+                                                        </small>
+                                                        <div class="notification-heading">Mr. John</div>
+                                                        <div class="notification-text">
+                                                            Hi Teddy, Just wanted to let you
+                                                            ...
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="">
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp pull-right">
+                                                            02:34
+                                                            PM
+                                                        </small>
+                                                        <div class="notification-heading">Michael Qin</div>
+                                                        <div class="notification-text">
+                                                            Hi Teddy, Just wanted to let you
+                                                            ...
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img class="pull-left m-r-10 avatar-img" src="images/avatar/2.jpg" alt="">
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp pull-right">
+                                                            02:34
+                                                            PM
+                                                        </small>
+                                                        <div class="notification-heading">Mr. John</div>
+                                                        <div class="notification-text">
+                                                            Hi Teddy, Just wanted to let you
+                                                            ...
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="#" class="more-link">See All</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown dib">
+                            <div class="header-icon" data-toggle="dropdown">
+                                <span class="user-avatar">
+                                    John
+                                    <i class="ti-angle-down f-s-10"></i>
+                                </span>
+                                <div class="drop-down dropdown-profile dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-content-heading">
+                                        <span class="text-left">Upgrade Now</span>
+                                        <p class="trial-day">30 Days Trail</p>
+                                    </div>
+                                    <div class="dropdown-content-body">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="ti-user"></i>
+                                                    <span>Profile</span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <i class="ti-email"></i>
+                                                    <span>Inbox</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="ti-settings"></i>
+                                                    <span>Setting</span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <i class="ti-lock"></i>
+                                                    <span>Lock Screen</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="ti-power-off"></i>
+                                                    <span>Logout</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      </div>
+    <div class="content-wrap">
+        <div class="main">
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- JS Grid Scripts Start-->
+    <script src="~/js/lib/jsgrid/db.js"></script>
+    <script src="~/js/lib/jsgrid/jsgrid.core.js"></script>
+    <script src="~/js/lib/jsgrid/jsgrid.load-indicator.js"></script>
+    <script src="~/js/lib/jsgrid/jsgrid.load-strategies.js"></script>
+    <script src="~/js/lib/jsgrid/jsgrid.sort-strategies.js"></script>
+    <script src="~/js/lib/jsgrid/jsgrid.field.js"></script>
+    <script src="~/js/lib/jsgrid/fields/jsgrid.field.text.js"></script>
+    <script src="~/js/lib/jsgrid/fields/jsgrid.field.number.js"></script>
+    <script src="~/js/lib/jsgrid/fields/jsgrid.field.select.js"></script>
+    <script src="~/js/lib/jsgrid/fields/jsgrid.field.checkbox.js"></script>
+    <script src="~/js/lib/jsgrid/fields/jsgrid.field.control.js"></script>
+    <script src="~/js/lib/jsgrid/jsgrid-init.js"></script>
+    <!-- JS Grid Scripts End-->
+
+    @*<script src="https://momentjs.com/downloads/moment.js"></script>*@
+    <script src="~/js/lib/bootstrap.min.js"></script>
+    <script src="~/js/scripts.js"></script>
+    <script src="~/js/lib/jquery.nanoscroller.min.js"></script>
+    <!-- nano scroller -->
+    <script src="~/js/lib/menubar/sidebar.js"></script>
+    <script src="~/js/lib/preloader/pace.min.js"></script>
+    <!-- sidebar -->
+
+    <script src="js/scripts.js"></script>
+    <!-- bootstrap -->
+
+
+
+    <script src="~/js/lib/weather/jquery.simpleWeather.min.js"></script>
+    <script src="~/js/lib/weather/weather-init.js"></script>
+    <script src="~/js/lib/circle-progress/circle-progress.min.js"></script>
+    <script src="~/js/lib/circle-progress/circle-progress-init.js"></script>
+    <script src="~/js/lib/chartist/chartist.min.js"></script>
+    <script src="~/js/lib/sparklinechart/jquery.sparkline.min.js"></script>
+    <script src="~/js/lib/sparklinechart/sparkline.init.js"></script>
+    <script src="~/js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="~/js/lib/owl-carousel/owl.carousel-init.js"></script>
+    <!-- scripit init-->
+    <script src="~/js/dashboard2.js"></script>
+    <!-- scripit init-->
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

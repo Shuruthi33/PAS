@@ -6,10 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PAS.Serivce.Interface
+namespace PAS.Serce.Interface
 {
     public interface IAuthenticateService
     {
-        //Task<LoginDTO?> GetLoginDetailsAsync(LoginDTO login);
+       
+        Task<ResultDataArgs?> GetLoginDetailsAsync(LoginDTO login);
     }
 }

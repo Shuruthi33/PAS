@@ -1,0 +1,46 @@
+﻿<div class="contianer">
+    <div class="row">
+    </div>
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-title">
+                <h4> Mentor Details</h4>
+
+            </div>
+            <div class="card-body">
+                <div class="jsgrid-table-panel">
+                    <div id="tblMentorId" class="jsgrid" style="position: relative; height: 100%; width: 100%;">
+                        <div class="jsgrid-grid-header jsgrid-header-scrollbar">
+                            <table class="jsgrid-table">
+                                <thead>
+                                    <tr class="jsgrid-header-row">
+                                       
+                                        <th class="jsgrid-header-cell jsgrid-align-center">Name</th>
+                                        <th class="jsgrid-header-cell jsgrid-align-center">Email</th>
+                                        <th class="jsgrid-header-cell jsgrid-align-center">MobileNo</th>
+                                       
+                                        <th class="jsgrid-header-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;">
+                                            <a asp-controller=" ProjectAllotment" asp-action="MentorDetails">  <span class="jsgrid-button jsgrid-mode-button jsgrid-insert-mode-button ti-plus" type="button" title=""></span></a>
+                                        </th>
+                                    </tr>
+
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/pas/administration.js"></script>
+<script>
+    $(document).ready(function () {
+        GetCandidateDetails();
+    });
+
+</script>

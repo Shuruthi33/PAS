@@ -1,0 +1,501 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PAS.MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PAS.MVC.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\admin\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\css\\admin\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\admin\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\css\\admin\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\admin\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\css\\admin\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\admin\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\css\\admin\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\chartist\\chartist.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\chartist\\chartist.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\helper.css",
+      "PackagePath": "staticwebassets\\css\\lib\\helper.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\jsgrid\\jsgrid-theme.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\jsgrid\\jsgrid-theme.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\jsgrid\\jsgrid.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\jsgrid\\jsgrid.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\materialize.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\materialize.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\menubar\\sidebar.css",
+      "PackagePath": "staticwebassets\\css\\lib\\menubar\\sidebar.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\metismenu\\menu.css",
+      "PackagePath": "staticwebassets\\css\\lib\\metismenu\\menu.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\mmc-chat.css",
+      "PackagePath": "staticwebassets\\css\\lib\\mmc-chat.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\preloader\\pace.css",
+      "PackagePath": "staticwebassets\\css\\lib\\preloader\\pace.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\lib\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\lib\\weather-icons.css",
+      "PackagePath": "staticwebassets\\css\\lib\\weather-icons.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\PAS\\administration.js",
+      "PackagePath": "staticwebassets\\js\\PAS\\administration.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\PAS\\mentor.js",
+      "PackagePath": "staticwebassets\\js\\PAS\\mentor.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\PAS\\project.js",
+      "PackagePath": "staticwebassets\\js\\PAS\\project.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\PAS\\projectAllotment.js",
+      "PackagePath": "staticwebassets\\js\\PAS\\projectAllotment.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\dashboard1.js",
+      "PackagePath": "staticwebassets\\js\\dashboard1.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\dashboard2.js",
+      "PackagePath": "staticwebassets\\js\\dashboard2.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\chartist\\chartist-init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\chartist\\chartist-init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\chartist\\chartist-plugin-tooltip.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\chartist\\chartist-plugin-tooltip.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\chartist\\chartist.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\chartist\\chartist.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\circle-progress\\circle-progress-init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\circle-progress\\circle-progress-init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\circle-progress\\circle-progress.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\circle-progress\\circle-progress.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\flowtype.js",
+      "PackagePath": "staticwebassets\\js\\lib\\flowtype.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\invoice-edit.js",
+      "PackagePath": "staticwebassets\\js\\lib\\invoice-edit.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jquery.nanoscroller.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery.nanoscroller.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\db.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\db.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\fields\\jsgrid.field.checkbox.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\fields\\jsgrid.field.checkbox.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\fields\\jsgrid.field.control.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\fields\\jsgrid.field.control.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\fields\\jsgrid.field.number.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\fields\\jsgrid.field.number.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\fields\\jsgrid.field.select.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\fields\\jsgrid.field.select.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\fields\\jsgrid.field.text.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\fields\\jsgrid.field.text.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\fields\\jsgrid.field.textarea.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\fields\\jsgrid.field.textarea.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\jsgrid-init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid-init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\jsgrid.core.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.core.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\jsgrid.field.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.field.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\jsgrid.load-indicator.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.load-indicator.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\jsgrid.load-strategies.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.load-strategies.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\jsgrid.sort-strategies.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.sort-strategies.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\jsgrid\\jsgrid.validation.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.validation.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\menubar\\sidebar.js",
+      "PackagePath": "staticwebassets\\js\\lib\\menubar\\sidebar.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\mmc-common.js",
+      "PackagePath": "staticwebassets\\js\\lib\\mmc-common.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\moment\\moment.js",
+      "PackagePath": "staticwebassets\\js\\lib\\moment\\moment.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\owl-carousel\\owl.carousel-init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\owl-carousel\\owl.carousel-init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\weather\\jquery.simpleWeather.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\weather\\jquery.simpleWeather.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\lib\\weather\\weather-init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\weather\\weather-init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PAS.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.PAS.MVC.props",
+      "PackagePath": "build\\PAS.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.PAS.MVC.props",
+      "PackagePath": "buildMultiTargeting\\PAS.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.PAS.MVC.props",
+      "PackagePath": "buildTransitive\\PAS.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

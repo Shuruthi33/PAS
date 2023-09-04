@@ -19,13 +19,14 @@ namespace PAS.Model.Output
         public string? Password { get; set; }
         public string? Email { get; set; }
         public string? Address { get; set; }
+
         public DateTime RegDate { get; set; }
-        public string? DOB { get; set; }
+        public DateTime DOB { get; set; }
         public int GenderId { get; set; }
         public int MobileNo { get; set; }
         public string? Qualification { get; set; }
         public string? Specialization { get; set; }
-        public int YearId { get; set; }
+       public int YearId { get; set; }
         public int BatchId { get; set; }
         public int? RoleId { get; set; }
 
@@ -36,6 +37,7 @@ namespace PAS.Model.Output
         public int PrjId { get; set; } = 0;
         public string? PrjTitle { get; set; }
         public string? PrjScope { get; set; }
+        public string? PrjFuture { get; set; }
         public string? PrjAnnouncement { get; set; }
     }
 

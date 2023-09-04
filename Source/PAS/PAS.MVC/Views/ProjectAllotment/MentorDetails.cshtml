@@ -1,0 +1,53 @@
+﻿<div class="contianer">
+    <div class="row">
+
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-title">
+                    <h4>Mentor Details </h4>
+                </div>
+                <div class="card-body">
+
+                    <input type="hidden" id="hdnMentorId" value="@ViewBag.UserId" />
+                    <div class="horizontal-form-elements">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"> Name </label>
+                                    <div class="col-sm-10">
+                                        <input type="text" id="useName" class="form-control" placeholder="Enter the Candidate Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <label class="col-sm-10 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" id="email" class="form-control" placeholder="Enter the Email">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="form-group">
+                                <label class="col-sm-10 control-label">MobileNo</label>
+                                <div class="col-sm-10">
+                                    <input id="mobileNo" type="number" class="form-control" placeholder="Enter the Number">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button type="button" onclick="SaveOrUpdateMentor" class="btn btn-success m-b-10 m-l-5">save</button>
+                            @*  <button type="button" onclick="SaveorUpdateStudentDetails()" class="btn btn-primary" />*@
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

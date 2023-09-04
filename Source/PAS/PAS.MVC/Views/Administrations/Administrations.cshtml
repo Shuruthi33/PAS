@@ -1,0 +1,54 @@
+﻿<div class="contianer">
+    <div class="row">
+        </div>
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-title">
+                    <h4>Candidate Details</h4>
+
+                </div>
+                <div class="card-body">
+                    <div class="jsgrid-table-panel">
+                        <div id="tblCandidate" class="jsgrid" style="position: relative; height: 100%; width: 100%;">
+                            <div class="jsgrid-grid-header jsgrid-header-scrollbar">
+                                <table class="jsgrid-table">
+                                    <thead>
+                                        <tr class="jsgrid-header-row">
+                                            <th class="jsgrid-header-cell jsgrid-header-sortable">Name</th>
+                                            <th class="jsgrid-header-cell jsgrid-align-right jsgrid-header-sortable">Email</th>
+                                            <th class="jsgrid-header-cell jsgrid-header-sortable">Address</th>
+                                            <th class="jsgrid-header-cell jsgrid-align-center">DOB</th>
+                                            <th class="jsgrid-header-cell jsgrid-align-center">Gender</th>
+                                            <th class="jsgrid-header-cell jsgrid-align-center">Mobile No</th>
+                                            <th class="jsgrid-header-cell jsgrid-align-center">Qualification</th>
+                                            <th class="jsgrid-header-cell jsgrid-align-center">Specialization</th>
+                                            <th class="jsgrid-header-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;">
+                                                <a asp-controller="Administrations" asp-action="AddCandidate">  <span class="jsgrid-button jsgrid-mode-button jsgrid-insert-mode-button ti-plus" type="button" title=""></span></a>
+                                            </th>
+                                        </tr>
+
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+<script src="~/js/pas/administration.js"></script>
+    <script>
+    // A $( document ).ready() block.
+    $(document).ready(function () {
+        debugger;
+        GetCandidateDetails();
+    }); 
+
+    </script>

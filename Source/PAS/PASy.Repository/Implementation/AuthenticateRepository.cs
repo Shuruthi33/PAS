@@ -26,8 +26,8 @@ namespace PAS.Repository.Implementation
             try
             {
                 DynamicParameters dynamicParameters = new DynamicParameters();
-                dynamicParameters.Add("@BatchId", login.UserName, DbType.Int64);
-                dynamicParameters.Add("@BatchId", login.Password, DbType.Int64);
+                dynamicParameters.Add("@UserName", login.UserName, DbType.Int64);
+                dynamicParameters.Add("@Password", login.Password, DbType.Int64);
                  response = await _serverHandler.ExecuteScalarAsync<int>("SaveBatchInfo", dynamicParameters);
 
             }

@@ -4,9 +4,10 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using PAS.Model;
 using PAS.Model.Output;
+using PAS.Serce.Interface;
 using PAS.Serivce.Implementation;
 using PAS.Serivce.Interface;
-using PMT.Models;
+
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -17,19 +18,21 @@ namespace PAS.API.Controllers
     [ApiController]
     public class UserAuthenticationController : ControllerBase
     {
-        public readonly IAuthenticateService _authenticateService;
+        IAuthenticateService _authenticateService;
+        public readonly IWebHostEnvironment _webHostEnvironment;
 
-        public UserAuthenticationController(IAuthenticateService authenticateService)
+        public UserAuthenticationController(IAuthenticateService authenticateService, IWebHostEnvironment webHostEnvironment)
         {
             _authenticateService = authenticateService;
-            
+            _webHostEnvironment = webHostEnvironment;
         }
 
-        //[HttpPost]
-        //[ActionName("GetYearDetails")]
-        //public async Task<IActionResult> GetLoginDetailsAsync()
-        //{
-        //    return Ok(await _authenticateService.GetLoginDetailsAsync());
-        //}
+        [HttpPost]
+        [ActionName("GetLoginDetails")]
+        public async Task<IActionResult> GetLoginDetailsAsync([FromBody] LoginDTO login)
+        {
+            return Ok(await _authenticateService.GetLoginDetailsAsync(login));
+        }
+
     }
 }

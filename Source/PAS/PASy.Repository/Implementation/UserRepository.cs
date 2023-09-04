@@ -29,7 +29,7 @@ namespace PAS.Repository.Implementation
             try
             {
                 DynamicParameters dynamicParameters = new DynamicParameters();
-                dynamicParameters.Add("@StudentId", Id, DbType.Int16);
+                dynamicParameters.Add("@UserId", Id, DbType.Int16);
 
                 response = await _serverHandler.ExecuteScalarAsync<int>("DeleteUserInfo", dynamicParameters);
 
@@ -89,6 +89,8 @@ namespace PAS.Repository.Implementation
                 dynamicParameters.Add("@Email", user.Email, DbType.String);
                 dynamicParameters.Add("@RegDate", user.RegDate, DbType.DateTime);
                 dynamicParameters.Add("@Address", user.Address, DbType.String);
+                dynamicParameters.Add("@Address", user.Address, DbType.String);
+         
                 dynamicParameters.Add("@DOB", user.DOB, DbType.DateTime);
                 dynamicParameters.Add("@Gender", user.GenderId, DbType.Int16);
                 dynamicParameters.Add("@MobileNo", user.MobileNo, DbType.Int32);

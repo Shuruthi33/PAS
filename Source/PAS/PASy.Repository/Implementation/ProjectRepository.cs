@@ -86,6 +86,7 @@ namespace PAS.Repository.Implementation
                 dynamicParameters.Add("@PrjId", project.PrjId, DbType.String);
                 dynamicParameters.Add("@PrjTitle", project.PrjTitle, DbType.String);
                 dynamicParameters.Add("@PrjScope", project.PrjScope, DbType.String);
+                dynamicParameters.Add("@PrjFuture", project.PrjFuture, DbType.String);
                 dynamicParameters.Add("@PrjAnnouncement", project.PrjAnnouncement, DbType.String);
                 response = await _serverHandler.ExecuteScalarAsync<int>("SaveProjectInfo", dynamicParameters);
 

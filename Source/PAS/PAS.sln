@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PAS.API", "PAS.API\PAS.API.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PAS.Repository", "PASy.Repository\PAS.Repository.csproj", "{8488342D-B3C1-47ED-A119-8C58DB005191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAS2", "PAS2\PAS2.csproj", "{95CB198E-0557-49B4-A77C-84250ECE876A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAS.MVC", "PAS.MVC\PAS.MVC.csproj", "{6A253091-07A9-4DBD-8F61-09923B62AE0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{8488342D-B3C1-47ED-A119-8C58DB005191}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8488342D-B3C1-47ED-A119-8C58DB005191}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8488342D-B3C1-47ED-A119-8C58DB005191}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95CB198E-0557-49B4-A77C-84250ECE876A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95CB198E-0557-49B4-A77C-84250ECE876A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95CB198E-0557-49B4-A77C-84250ECE876A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95CB198E-0557-49B4-A77C-84250ECE876A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A253091-07A9-4DBD-8F61-09923B62AE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A253091-07A9-4DBD-8F61-09923B62AE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A253091-07A9-4DBD-8F61-09923B62AE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A253091-07A9-4DBD-8F61-09923B62AE0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,573 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PAS.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PAS.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\admin\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\css\\admin\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\admin\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\css\\admin\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\admin\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\css\\admin\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\admin\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\css\\admin\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\calendar2\\pignose.calendar.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\calendar2\\pignose.calendar.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\calendar2\\semantic.ui.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\calendar2\\semantic.ui.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\chartist\\chartist.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\chartist\\chartist.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\helper.css",
+      "PackagePath": "staticwebassets\\css\\lib\\helper.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\jsgrid\\jsgrid-theme.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\jsgrid\\jsgrid-theme.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\jsgrid\\jsgrid.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\jsgrid\\jsgrid.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\materialize.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\materialize.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\menubar\\sidebar.css",
+      "PackagePath": "staticwebassets\\css\\lib\\menubar\\sidebar.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\mmc-chat.css",
+      "PackagePath": "staticwebassets\\css\\lib\\mmc-chat.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\lib\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\vector-map\\jqvmap.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\vector-map\\jqvmap.min.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\lib\\weather-icons.css",
+      "PackagePath": "staticwebassets\\css\\lib\\weather-icons.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\1.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\1.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\2.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\2.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\3.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\3.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\3.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\4.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\4.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\avatar.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\avatar.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\avatar\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\avatar\\1.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\avatar\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\avatar\\2.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\avatar\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\avatar\\3.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\avatar\\usa-flag.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\avatar\\usa-flag.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\chat-person-add.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\chat-person-add.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\close.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\close.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\fjords.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\fjords.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\hand.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\hand.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\lights.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\lights.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\logo.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\logo.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\maximize.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\maximize.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\minimize.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\minimize.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\nature.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\nature.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\newyork.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\newyork.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\paris.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\paris.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\paypal.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\paypal.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\picture.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\picture.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\preview1.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\preview1.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\profile-bg.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\profile-bg.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\rangeSliderimg\\sprite-skin-flat.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\rangeSliderimg\\sprite-skin-flat.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\rangeSliderimg\\sprite-skin-modern.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\rangeSliderimg\\sprite-skin-modern.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\rangeSliderimg\\sprite-skin-nice.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\rangeSliderimg\\sprite-skin-nice.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\rangeSliderimg\\sprite-skin-simple.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\rangeSliderimg\\sprite-skin-simple.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\sanfran.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\sanfran.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\scrollable\\view-1-1200x800.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\scrollable\\view-1-1200x800.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\smile.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\smile.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\user-1.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\user-1.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\user-female.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\user-female.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\user-profile.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\user-profile.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\user.jpg",
+      "PackagePath": "staticwebassets\\css\\placeholder\\user.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\placeholder\\video-cam.png",
+      "PackagePath": "staticwebassets\\css\\placeholder\\video-cam.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\MontserratLight.eot",
+      "PackagePath": "staticwebassets\\fonts\\MontserratLight.eot"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\MontserratLight.svg",
+      "PackagePath": "staticwebassets\\fonts\\MontserratLight.svg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\MontserratLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\MontserratLight.ttf"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\MontserratLight.woff",
+      "PackagePath": "staticwebassets\\fonts\\MontserratLight.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\MontserratLight.woff2",
+      "PackagePath": "staticwebassets\\fonts\\MontserratLight.woff2"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\fontawesome-webfont_files\\viewsource.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont_files\\viewsource.css"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\roboto\\Roboto-Thin.woff",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Thin.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\roboto\\Roboto-Thin.woff2",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Thin.woff2"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\weathericons-regular-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\weathericons-regular-webfont.eot"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\weathericons-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\weathericons-regular-webfont.svg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\weathericons-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\weathericons-regular-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\weathericons-regular-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\weathericons-regular-webfont.woff"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\fonts\\weathericons-regular-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\weathericons-regular-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\image\\avatar.png",
+      "PackagePath": "staticwebassets\\image\\avatar.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\image\\avatar\\1.jpg",
+      "PackagePath": "staticwebassets\\image\\avatar\\1.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\image\\avatar\\2.jpg",
+      "PackagePath": "staticwebassets\\image\\avatar\\2.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\image\\avatar\\3.jpg",
+      "PackagePath": "staticwebassets\\image\\avatar\\3.jpg"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\image\\avatar\\usa-flag.png",
+      "PackagePath": "staticwebassets\\image\\avatar\\usa-flag.png"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\Area\\PAS\\Service\\PAS.js",
+      "PackagePath": "staticwebassets\\js\\Area\\PAS\\Service\\PAS.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\dashboard1.js",
+      "PackagePath": "staticwebassets\\js\\dashboard1.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\dashboard2.js",
+      "PackagePath": "staticwebassets\\js\\dashboard2.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\calendar-2\\moment.latest.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\calendar-2\\moment.latest.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\calendar-2\\pignose.calendar.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\calendar-2\\pignose.calendar.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\calendar-2\\pignose.init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\calendar-2\\pignose.init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\calendar-2\\prism.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\calendar-2\\prism.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\calendar-2\\semantic.ui.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\calendar-2\\semantic.ui.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\calendar\\fullcalendar-init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\calendar\\fullcalendar-init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\calendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\calendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\chartist\\chartist-init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\chartist\\chartist-init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\chartist\\chartist-plugin-tooltip.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\chartist\\chartist-plugin-tooltip.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\chartist\\chartist.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\chartist\\chartist.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\circle-progress\\circle-progress-init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\circle-progress\\circle-progress-init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\circle-progress\\circle-progress.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\circle-progress\\circle-progress.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\flowtype.js",
+      "PackagePath": "staticwebassets\\js\\lib\\flowtype.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\invoice-edit.js",
+      "PackagePath": "staticwebassets\\js\\lib\\invoice-edit.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\jquery.nanoscroller.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery.nanoscroller.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\jsgrid\\db.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\db.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\jsgrid\\jsgrid-init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid-init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\jsgrid\\jsgrid.core.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.core.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\jsgrid\\jsgrid.field.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.field.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\jsgrid\\jsgrid.load-indicator.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.load-indicator.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\jsgrid\\jsgrid.load-strategies.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.load-strategies.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\jsgrid\\jsgrid.sort-strategies.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.sort-strategies.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\jsgrid\\jsgrid.validation.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jsgrid\\jsgrid.validation.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\mmc-common.js",
+      "PackagePath": "staticwebassets\\js\\lib\\mmc-common.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\owl-carousel\\owl.carousel-init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\owl-carousel\\owl.carousel-init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\preloader\\pace.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\preloader\\pace.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\sparklinechart\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\sparklinechart\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\sparklinechart\\sparkline.init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\sparklinechart\\sparkline.init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\weather\\jquery.simpleWeather.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\weather\\jquery.simpleWeather.min.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\lib\\weather\\weather-init.js",
+      "PackagePath": "staticwebassets\\js\\lib\\weather\\weather-init.js"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PAS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.PAS.props",
+      "PackagePath": "build\\PAS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.PAS.props",
+      "PackagePath": "buildMultiTargeting\\PAS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.PAS.props",
+      "PackagePath": "buildTransitive\\PAS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
