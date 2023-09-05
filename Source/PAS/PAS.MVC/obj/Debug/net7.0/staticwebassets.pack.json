@@ -101,6 +101,10 @@
       "PackagePath": "staticwebassets\\js\\PAS\\administration.js"
     },
     {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\PAS\\login.js",
+      "PackagePath": "staticwebassets\\js\\PAS\\login.js"
+    },
+    {
       "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\PAS\\mentor.js",
       "PackagePath": "staticwebassets\\js\\PAS\\mentor.js"
     },
@@ -479,6 +483,10 @@
     {
       "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\moment.js.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js.min.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PAS.MVC.Microsoft.AspNetCore.StaticWebAssets.props",

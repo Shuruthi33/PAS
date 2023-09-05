@@ -9,26 +9,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PAS.Repository.Implementation
+namespace PAS.Repository.Repository
 {
-    public class AuthenticateRepository : IAuthenticateRepository
+    public class LoginRepository : ILoginRepository
     {
         ISQLServerHandler _serverHandler;
 
-        public AuthenticateRepository(ISQLServerHandler serverHandler)
+        public LoginRepository(ISQLServerHandler serverHandler)
         {
             _serverHandler = serverHandler;
         }
 
-        public async Task<int> GetLoginDetailsAsync(LoginDTO login)
+        public async Task<int>  SaveLoginDetailsAsync(LoginDTO login)
         {
             int response = 0;
             try
             {
                 DynamicParameters dynamicParameters = new DynamicParameters();
-                dynamicParameters.Add("@UserName", login.UserName, DbType.Int64);
-                dynamicParameters.Add("@Password", login.Password, DbType.Int64);
-                 response = await _serverHandler.ExecuteScalarAsync<int>("SaveBatchInfo", dynamicParameters);
+                dynamicParameters.Add("@user", login.UserName, DbType.String);
+                dynamicParameters.Add("@pass", login.Password, DbType.String);
+                response = await _serverHandler.ExecuteScalarAsync<int>("Loginprocedures", dynamicParameters);
 
             }
             catch (Exception ex)

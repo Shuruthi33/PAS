@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Mvc;
 
 namespace PAS.MVC.Controllers
 {
@@ -13,7 +14,7 @@ namespace PAS.MVC.Controllers
         {
             return View();
         }
-
+        [Microsoft.AspNetCore.Mvc.Route("~/AddCandidate")]
         public IActionResult AddCandidate(Int16 UserId=0)
         {
             ViewBag.UserId = UserId;

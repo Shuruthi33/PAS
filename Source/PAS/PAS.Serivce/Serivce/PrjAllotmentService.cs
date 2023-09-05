@@ -1,7 +1,7 @@
 ﻿using PAS.Model;
 using PAS.Model.Input;
 using PAS.Model.Output;
-using PAS.Repository.Implementation;
+using PAS.Repository.Repository;
 using PAS.Repository.Interface;
 using PAS.Serivce.Interface;
 using System;
@@ -9,22 +9,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Octopus.Client.Model.TenantVariableResource;
 
-namespace PAS.Serivce.Implementation
+namespace PAS.Serivce.Serivce
 {
-    public class YearService: IYearService
+    public class PrjAllotmentService : IPrjAllotmentService
     {
-        IYearRepository _yearRepository;
-        public YearService(IYearRepository yearDetails)
+        IPrjAllotmentRepository _prjAllomentRepository;
+
+        public PrjAllotmentService (IPrjAllotmentRepository prjAllomentRepository)
         {
-            _yearRepository = yearDetails;
+            _prjAllomentRepository = prjAllomentRepository;
         }
 
-        public async Task<ResultDataArgs> DeleteYearDetailsByIdAsync(int Id)
+        public async Task<ResultDataArgs> DeletePrjAllotmentDetailsByIdAsync(int Id)
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            int result = await _yearRepository.DeleteYearDetailsByIdAsync(Id);
+            int result = await _prjAllomentRepository.DeletePrjAllotmentDetailsByIdAsync(Id);
             if (result == 0)
             {
                 resultArgs.StatusCode = 200;
@@ -39,16 +41,16 @@ namespace PAS.Serivce.Implementation
             return resultArgs;
         }
 
-        public async Task<ResultDataArgs> GetYearDetailsAsync()
+        public async Task<ResultDataArgs> GetPrjAllotmentDetailsAsync()
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            YearDetailsResultDTO obj = await _yearRepository.GetYearDetailsAsync();
+            PrjAllotmentDetailsResultDTO obj = await _prjAllomentRepository.GetPrjAllotmentDetailsAsync();
             if (obj != null)
             {
                 resultArgs.StatusCode = 200;
                 resultArgs.StatusMessage = "Record load Successfully";
-                resultArgs.ResultData = obj.yearDetailsList;
+                resultArgs.ResultData = obj.prjAllotmentDetailsList;
 
             }
             else
@@ -59,11 +61,11 @@ namespace PAS.Serivce.Implementation
             return resultArgs;
         }
 
-        public async Task<ResultDataArgs> GetYearDetailsByIdAsync(int Id)
+        public async Task<ResultDataArgs> GetPrjAllotmentDetailsByIdAsync(int Id)
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            YearDTO obj = await _yearRepository.GetYearDetailsByIdAsync(Id);
+            PrjAllotmentDTO obj = await _prjAllomentRepository.GetPrjAllotmentDetailsByIdAsync(Id);
             if (obj != null)
             {
                 resultArgs.StatusCode = 200;
@@ -79,11 +81,11 @@ namespace PAS.Serivce.Implementation
             return resultArgs;
         }
 
-        public async Task<ResultDataArgs> SaveYearDetailsAsync(YearDTO year)
+        public async Task<ResultDataArgs> SavePrjAllotmentDetailsAsync(PrjAllotmentDTO prjAllotment)
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            int result = await _yearRepository.SaveYearDetailsAsync(year);
+            int result = await _prjAllomentRepository.SavePrjAllotmentDetailsAsync(prjAllotment);
             if (result == 0)
             {
                 resultArgs.StatusCode = 200;

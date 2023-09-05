@@ -1,7 +1,7 @@
 ﻿
-// GET the Project Details
+// GET the Mentor Details
 const GetMentorDetails = async () => {
-
+    debugger;
     var Response;
 
     try {
@@ -21,7 +21,7 @@ const GetMentorDetails = async () => {
                             tbodydata += '<td class="jsgrid-cell">' + value.email + '</td>';
                             tbodydata += '<td class="jsgrid-cell">' + value.mobileNo + '</td>';
 
-                            tbodydata += '<td> <a href="/AddOrUpdateStudentDetails?StudentId=' + value.studentId + '"><span class="jsgrid-button jsgrid-edit-button ti-pencil" type="button" title="Edit"></span></a><a href = "#"onclick="DeleteCandidate(' + value.mentorId + ')"><span class="jsgrid-button jsgrid-delete-button ti-trash" type="button" title="Delete"></span></a></td>';
+                           tbodydata += '<td> <a href="/MentorDetails?MentorId=' + value.mentorId + '"><span class="jsgrid-button jsgrid-edit-button ti-pencil" type="button" title="Edit"></span></a><a href = "#"onclick="DeleteCandidate(' + value.mentorId + ')"><span class="jsgrid-button jsgrid-delete-button ti-trash" type="button" title="Delete"></span></a></td>';
                             //tbodydata += '<td> <a href="/AddOrUpdateStudentDetails?StudentId=' + value.UserId +'"><span class="jsgrid-button jsgrid-edit-button ti-pencil" type="button" title="Edit"></span></a>< a href = "#"onclick = "DeleteCandidate(' + value.userId + ')" > <span class="jsgrid-button jsgrid-delete-button ti-trash" type="button" title="Delete"></span></a ></td > ';
                             tbodydata += '</tr>';
                         });
@@ -40,8 +40,9 @@ const GetMentorDetails = async () => {
     return Response;
 }
 
-// Get Project ById
+// Get Mentor ById
 const GetMentorDetailsById = async (Id) => {
+    debugger;
     var Response = 0;
 
 
@@ -64,68 +65,69 @@ const GetMentorDetailsById = async (Id) => {
             }
         });
     }
+    
     catch (err) {
         await console.log(err);
     }
-
+    debugger;
     return Response;
 }
 
-//save or update candidate Details
-const SaveOrUpdateMentor = async () => {
-    var Response = 0;
+////save or update Mentor Details
+//const SaveOrUpdateMentor = async () => {
+//    var Response = 0;
 
-    var data = {
-        userId: parseInt($('#tblMentorId').val()),
-        userName: $('#name').val(),
-        password: $('#email').val(),
-        email: $('#mobileNo').val(),
-
-
-    }
-    console.log('data', data);
-    alert()
-    $.ajax({
-        type: 'POST',
-        url: https://localhost:7138/api/Mentor/InsertMentortDetailsAsync",
-        contentType: "application/json",
-        data: JSON.stringify(data),
-        async: false,
-        success: function (data) {
-            console.log('data', data);
-            alert()
-            if (data != null && data.statusCode == 200) {
-                window.location.href = "~/MentorGrid";
-            }
-        }
-    });
-});
+//    var data = {
+//        userId: parseInt($('#tblMentorId').val()),
+//        userName: $('#name').val(),
+//        password: $('#email').val(),
+//        email: $('#mobileNo').val(),
 
 
-//Delete the Project Details By Id
-const DeleteMentorById = async (Id) => {
-    var Response = 0;
+//    }
+//    console.log('data', data);
+//    alert()
+//    $.ajax({
+//        type: 'POST',
+//        url: "https://localhost:7138/api/Mentor/InsertMentortDetailsAsync",
+//        contentType: "application/json",
+//        data: JSON.stringify(data),
+//        async: false,
+//        success: function (data) {
+//            console.log('data', data);
+//            alert()
+//            if (data != null && data.statusCode == 200) {
+//                window.location.href = "/ProjectAllotment/MentorGrid";
+//            }
+//        }
+//    });
+//});
 
 
-    try {
-        await $.ajax({
-            type: 'DELETE',
-            url: 'https://localhost:7138/api/Mentor/DeleteMentorDetailsByIdAsync' + Id + '',
-            contentType: "application/json",
-            data: { id: Id },
-            async: false,
-            success: function (data) {
-                if (data != null && data.statusCode == 200) {
-                    alert("Deletd Sucessfully");
-                    GetMentorDetails();
-                }
-            }
-        });
-    }
-    catch (err) {
-        await console.log(err);
-    }
+////Delete the Mentor Details By Id
+//const DeleteMentorById = async (Id) => {
+//    var Response = 0;
 
-    return Response;
 
-}
+//    try {
+//        await $.ajax({
+//            type: 'DELETE',
+//            url: 'https://localhost:7138/api/Mentor/DeleteMentorDetailsByIdAsync' + Id + '',
+//            contentType: "application/json",
+//            data: { id: Id },
+//            async: false,
+//            success: function (data) {
+//                if (data != null && data.statusCode == 200) {
+//                    alert("Deletd Sucessfully");
+//                    GetMentorDetails();
+//                }
+//            }
+//        });
+//    }
+//    catch (err) {
+//        await console.log(err);
+//    }
+
+//    return Response;
+
+//}

@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace PAS.Repository.Interface
 {
-    public interface IAuthenticateRepository
+    public interface ILoginRepository
     {
-        Task<int> GetLoginDetailsAsync(LoginDTO login);
+        Task<int> SaveLoginDetailsAsync(LoginDTO login);
     }
 }

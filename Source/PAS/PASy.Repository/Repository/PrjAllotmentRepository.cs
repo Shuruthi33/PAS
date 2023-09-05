@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PAS.Repository.Implementation
+namespace PAS.Repository.Repository
 {
     public class PrjAllotmentRepository : IPrjAllotmentRepository
     {

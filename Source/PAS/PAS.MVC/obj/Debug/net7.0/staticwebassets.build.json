@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LM6fO3GPIWVYw8WRszgKxBuEWI6revOtVjoY5JToOEY=",
+  "Hash": "C5Y8uU0vTEqrwFMquW5RL29mrruCW2brgB2u6ieF3Eo=",
   "Source": "PAS.MVC",
   "BasePath": "_content/PAS.MVC",
   "Mode": "Default",
@@ -1018,6 +1018,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\PAS\\administration.js"
+    },
+    {
+      "Identity": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\PAS\\login.js",
+      "SourceId": "PAS.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\",
+      "BasePath": "_content/PAS.MVC",
+      "RelativePath": "js/PAS/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\PAS\\login.js"
     },
     {
       "Identity": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\js\\PAS\\mentor.js",
@@ -2072,6 +2089,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\lib\\moment.js.min.js",
+      "SourceId": "PAS.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github Projcts\\PAS_SRC_PATH\\Source\\PAS\\PAS.MVC\\wwwroot\\",
+      "BasePath": "_content/PAS.MVC",
+      "RelativePath": "lib/moment.js.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\moment.js.min.js"
     }
   ]
 }

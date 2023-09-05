@@ -22,12 +22,9 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "Default",
-    pattern: "{controller=Dashboard}/{action=Dashboard}");
-
-
-
-app.MapControllerRoute(
-    name: "Default",
     pattern: "{controller=Login}/{action=Login}");
+
+
+
 
 app.Run();

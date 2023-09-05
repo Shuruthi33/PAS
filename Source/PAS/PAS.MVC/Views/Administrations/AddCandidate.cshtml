@@ -13,35 +13,33 @@
                             <div class="row">
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
-                                        <label class="col-sm-2 control-label"> Name </label>
-                                        <div class="col-sm-10">
+                                        <label class="col-sm-6 control-label"> Name </label>
+                                        <div class="col-sm-12">
                                             <input type="text" id="userName" class="form-control" placeholder="Enter the Candidate Name">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
-                                        <label class="col-sm-10 control-label">Email</label>
-                                        <div class="col-sm-10">
+                                        <label class="col-sm-6 control-label">Email</label>
+                                        <div class="col-sm-12">
                                             <input type="email" id="email" class="form-control" placeholder="Enter the Email">
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="row">
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
-                                        <label class="col-sm-2 control-label">Address</label>
-                                        <div class="col-sm-10">
+                                        <label class="col-sm-6 control-label">Address</label>
+                                        <div class="col-sm-12">
                                             <textarea class="form-control" id="address" placeholder="Enter the Address"></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
-                                        <label class="col-sm-2 control-label">DOB</label>
-                                        <div class="col-sm-10">
+                                        <label class="col-sm-6 control-label">DOB</label>
+                                        <div class="col-sm-12">
                                             <input type="date" id="dob" class="form-control" placeholder="Enter the Datan of Birth">
                                         </div>
                                     </div>
@@ -54,11 +52,11 @@
                                     <label class="col-sm-8 control-label">Gender</label>
                                     <div class="col-sm-10">
 
-                                        <input type="radio" name="Male" id="Male" value="1">
+                                        <input type="radio" name="Gender" id="Male" value="1">
                                         <label for="Male">Male</label><br />
-                                        <input type="radio" name="Female" id="Female" value="2">
+                                        <input type="radio" name="Gender" id="Female" value="2">
                                         <label for="Female">Female</label><br />
-                                        <input type="radio" name="Others" id="Others" value="3">
+                                        <input type="radio" name="Gender" id="Others" value="3">
                                         <label for="Others">Other</label><br>
                                     </div>
                                 </div>
@@ -87,7 +85,7 @@
                                 </div>
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
-                                        <label class="col-sm-2 control-label">Specialization</label>
+                                        <label class="col-sm-10 control-label">Specialization</label>
                                         <div class="col-sm-10">
                                             <select id="specialization" class="form-control">
                                                 <option>PHP</option>
@@ -102,7 +100,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <button type="button" onclick="AddCandidate" class="btn btn-success m-b-10 m-l-5">save</button>
+                                    <button type="button" onclick="SaveOrUpdateCandidate(@ViewBag.UserId);" class="btn btn-success m-b-10 m-l-5">save</button>
                                   @*  <button type="button" onclick="SaveorUpdateStudentDetails()" class="btn btn-primary" />*@
                                 </div>
                             </div>
@@ -114,11 +112,13 @@
     </div>
 </div>
 <script src="~/js/pas/administration.js"></script>
+<script src="~/lib/moment.js.min.js"></script>
+
 <script>
     $(document).ready(function () {
-        debugger
+       
         if (@ViewBag.UserId> 0) {
-            GetCandidateDetails(@ViewBag.UserId);
+            GetCandidateDetailsById(@ViewBag.UserId);
         }
     });
 

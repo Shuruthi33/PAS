@@ -1,31 +1,30 @@
-﻿using PAS.Model.Input;
-using PAS.Model.Output;
+﻿using PAS.Model.Output;
 using PAS.Model;
+using PAS.Serivce.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using PAS.Repository.Interface;
-using PAS.Serivce.Interface;
-using static Octopus.Client.Model.TenantVariableResource;
+using PAS.Model.Input;
 
-namespace PAS.Serivce.Implementation
+namespace PAS.Serivce.Serivce
 {
-    public class MentorService: IMentorService
+    public class ProjectService : IProjectService
     {
-        IMentorRepository _mentorRepository;
+        IProjectRepository _projectRepository;
 
-        public MentorService(IMentorRepository mentorDetails)
+        public ProjectService(IProjectRepository projectDetails)
         {
-            _mentorRepository = mentorDetails;
+            _projectRepository = projectDetails;
         }
 
-        public async Task<ResultDataArgs> DeleteMentorByIdAsync(int Id)
+        public async  Task<ResultDataArgs> DeleteProjectAsync(int Id)
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            int result = await _mentorRepository.DeleteMentorByIdAsync(Id);
+            int result = await _projectRepository.DeleteProjectAsync(Id);
             if (result == 0)
             {
                 resultArgs.StatusCode = 200;
@@ -40,16 +39,16 @@ namespace PAS.Serivce.Implementation
             return resultArgs;
         }
 
-        public async Task<ResultDataArgs> GetMentorDetailsAsync()
+        public async Task<ResultDataArgs> GetProjectAsync()
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            MentorDetailsResultDTO obj = await _mentorRepository.GetMentorDetailsAsync();
+            ProjectDetailsResultDTO obj = await _projectRepository.GetProjectAsync();
             if (obj != null)
             {
                 resultArgs.StatusCode = 200;
                 resultArgs.StatusMessage = "Record load Successfully";
-                resultArgs.ResultData = obj.mentorDetailsList;
+                resultArgs.ResultData = obj.projectDetailsList;
 
             }
             else
@@ -58,14 +57,13 @@ namespace PAS.Serivce.Implementation
                 resultArgs.StatusMessage = "Unable to Save records";
             }
             return resultArgs;
-
         }
 
-        public async Task<ResultDataArgs> GetMentorDetailsByIdAsync(int Id)
+        public async  Task<ResultDataArgs> GetProjectByIdAsync(int Id)
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            MentorDTO obj = await _mentorRepository.GetMentorDetailsByIdAsync(Id);
+            ProjectDTO obj = await _projectRepository.GetProjectByIdAsync(Id);
             if (obj != null)
             {
                 resultArgs.StatusCode = 200;
@@ -81,11 +79,11 @@ namespace PAS.Serivce.Implementation
             return resultArgs;
         }
 
-        public async Task<ResultDataArgs> SaveMentorDetailsAsync(MentorDTO mentor)
+        public async Task<ResultDataArgs> SaveProjectAsync(ProjectDTO project)
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            int result = await _mentorRepository.SaveMentorDetailsAsync(mentor);
+            int result = await _projectRepository.SaveProjectAsync(project);
             if (result == 0)
             {
                 resultArgs.StatusCode = 200;
@@ -96,7 +94,7 @@ namespace PAS.Serivce.Implementation
                 resultArgs.StatusCode = 200;
                 resultArgs.StatusMessage = "Unable to Save records";
             }
-            return resultArgs;  
+            return resultArgs;
         }
     }
 }

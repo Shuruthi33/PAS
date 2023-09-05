@@ -1,7 +1,7 @@
 ﻿using PAS.Model;
 using PAS.Model.Input;
 using PAS.Model.Output;
-using PAS.Repository.Implementation;
+
 using PAS.Repository.Interface;
 using PAS.Serivce.Interface;
 using System;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PAS.Serivce.Implementation
+namespace PAS.Serivce.Serivce
 {
     public class BatchService : IBatchService
     {

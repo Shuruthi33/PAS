@@ -12,7 +12,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PAS.Repository.Implementation
+namespace PAS.Repository.Repository
 {
   public class UserRepository : IUserRepository
     {
@@ -85,20 +85,18 @@ namespace PAS.Repository.Implementation
                 DynamicParameters dynamicParameters = new DynamicParameters();
                 dynamicParameters.Add("@UserId", user.UserId, DbType.String);
                 dynamicParameters.Add("@UserName", user.UserName, DbType.String);
-                dynamicParameters.Add("@Password", user.Password, DbType.String);
+               dynamicParameters.Add("@Password", user.Password, DbType.String);
                 dynamicParameters.Add("@Email", user.Email, DbType.String);
-                dynamicParameters.Add("@RegDate", user.RegDate, DbType.DateTime);
+               // dynamicParameters.Add("@RegDate", user.RegDate, DbType.DateTime);
                 dynamicParameters.Add("@Address", user.Address, DbType.String);
-                dynamicParameters.Add("@Address", user.Address, DbType.String);
-         
                 dynamicParameters.Add("@DOB", user.DOB, DbType.DateTime);
                 dynamicParameters.Add("@Gender", user.GenderId, DbType.Int16);
                 dynamicParameters.Add("@MobileNo", user.MobileNo, DbType.Int32);
                 dynamicParameters.Add("@Qualification", user.Qualification, DbType.String);
                 dynamicParameters.Add("@Specialization", user.Specialization, DbType.String);
-                dynamicParameters.Add("@YearId", user.YearId,DbType.Int32);
-                dynamicParameters.Add("@BatchId", user.BatchId, DbType.Int32);
-                dynamicParameters.Add("@RoleId", user.RoleId, DbType.Int32);
+               // dynamicParameters.Add("@YearId", user.YearId,DbType.Int32);
+               // dynamicParameters.Add("@BatchId", user.BatchId, DbType.Int32);
+                //dynamicParameters.Add("@RoleId", user.RoleId, DbType.Int32);
 
 
                 response = await _serverHandler.ExecuteScalarAsync<int>("SaveUserInfo", dynamicParameters);

@@ -1,30 +1,30 @@
-﻿using PAS.Model.Output;
-using PAS.Model;
+﻿using PAS.Model;
+using PAS.Model.Input;
+using PAS.Model.Output;
+using PAS.Repository.Repository;
+using PAS.Repository.Interface;
 using PAS.Serivce.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PAS.Repository.Interface;
-using PAS.Model.Input;
 
-namespace PAS.Serivce.Implementation
+namespace PAS.Serivce.Serivce
 {
-    public class ProjectService : IProjectService
+    public class YearService: IYearService
     {
-        IProjectRepository _projectRepository;
-
-        public ProjectService(IProjectRepository projectDetails)
+        IYearRepository _yearRepository;
+        public YearService(IYearRepository yearDetails)
         {
-            _projectRepository = projectDetails;
+            _yearRepository = yearDetails;
         }
 
-        public async  Task<ResultDataArgs> DeleteProjectAsync(int Id)
+        public async Task<ResultDataArgs> DeleteYearDetailsByIdAsync(int Id)
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            int result = await _projectRepository.DeleteProjectAsync(Id);
+            int result = await _yearRepository.DeleteYearDetailsByIdAsync(Id);
             if (result == 0)
             {
                 resultArgs.StatusCode = 200;
@@ -39,16 +39,16 @@ namespace PAS.Serivce.Implementation
             return resultArgs;
         }
 
-        public async Task<ResultDataArgs> GetProjectAsync()
+        public async Task<ResultDataArgs> GetYearDetailsAsync()
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            ProjectDetailsResultDTO obj = await _projectRepository.GetProjectAsync();
+            YearDetailsResultDTO obj = await _yearRepository.GetYearDetailsAsync();
             if (obj != null)
             {
                 resultArgs.StatusCode = 200;
                 resultArgs.StatusMessage = "Record load Successfully";
-                resultArgs.ResultData = obj.projectDetailsList;
+                resultArgs.ResultData = obj.yearDetailsList;
 
             }
             else
@@ -59,11 +59,11 @@ namespace PAS.Serivce.Implementation
             return resultArgs;
         }
 
-        public async  Task<ResultDataArgs> GetProjectByIdAsync(int Id)
+        public async Task<ResultDataArgs> GetYearDetailsByIdAsync(int Id)
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            ProjectDTO obj = await _projectRepository.GetProjectByIdAsync(Id);
+            YearDTO obj = await _yearRepository.GetYearDetailsByIdAsync(Id);
             if (obj != null)
             {
                 resultArgs.StatusCode = 200;
@@ -79,11 +79,11 @@ namespace PAS.Serivce.Implementation
             return resultArgs;
         }
 
-        public async Task<ResultDataArgs> SaveProjectAsync(ProjectDTO project)
+        public async Task<ResultDataArgs> SaveYearDetailsAsync(YearDTO year)
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            int result = await _projectRepository.SaveProjectAsync(project);
+            int result = await _yearRepository.SaveYearDetailsAsync(year);
             if (result == 0)
             {
                 resultArgs.StatusCode = 200;

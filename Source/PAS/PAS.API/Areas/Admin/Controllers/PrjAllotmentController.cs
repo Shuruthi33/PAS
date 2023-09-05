@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PAS.Model.Output;
-using PAS.Serivce.Implementation;
+using PAS.Serivce.Serivce;
 using PAS.Serivce.Interface;
 
 namespace PAS.API.Areas.Admin.Controllers

@@ -4,6 +4,7 @@ namespace PAS.MVC.Controllers
 {
     public class ProjectAllotmentController: Controller
     {
+     
         public IActionResult ProjectDetails()
         {
             return View();

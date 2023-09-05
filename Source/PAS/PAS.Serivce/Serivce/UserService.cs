@@ -1,7 +1,7 @@
 ﻿using PAS.Model;
 using PAS.Model.Input;
 using PAS.Model.Output;
-using PAS.Repository.Implementation;
+using PAS.Repository.Repository;
 using PAS.Repository.Interface;
 using PAS.Serivce.Interface;
 using System;
@@ -9,24 +9,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Octopus.Client.Model.TenantVariableResource;
 
-namespace PAS.Serivce.Implementation
+namespace PAS.Serivce.Serivce
+
 {
-    public class PrjAllotmentService : IPrjAllotmentService
+    public class UserService : IUserService
     {
-        IPrjAllotmentRepository _prjAllomentRepository;
+        IUserRepository _userRepository;
 
-        public PrjAllotmentService (IPrjAllotmentRepository prjAllomentRepository)
+        public UserService(IUserRepository userDetails)
         {
-            _prjAllomentRepository = prjAllomentRepository;
+            _userRepository = userDetails;
         }
 
-        public async Task<ResultDataArgs> DeletePrjAllotmentDetailsByIdAsync(int Id)
+        public async Task<ResultDataArgs> DeleteUserDetailsByIdAsync(int Id)
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            int result = await _prjAllomentRepository.DeletePrjAllotmentDetailsByIdAsync(Id);
+            int result = await _userRepository.DeleteUserDetailsByIdAsync(Id);
             if (result == 0)
             {
                 resultArgs.StatusCode = 200;
@@ -40,17 +40,16 @@ namespace PAS.Serivce.Implementation
             }
             return resultArgs;
         }
-
-        public async Task<ResultDataArgs> GetPrjAllotmentDetailsAsync()
+        public async Task<ResultDataArgs> GetUserDetailsAsync()
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            PrjAllotmentDetailsResultDTO obj = await _prjAllomentRepository.GetPrjAllotmentDetailsAsync();
+            UserDetailsResultDTO obj = await _userRepository.GetUserDetailsAsync();
             if (obj != null)
             {
                 resultArgs.StatusCode = 200;
                 resultArgs.StatusMessage = "Record load Successfully";
-                resultArgs.ResultData = obj.prjAllotmentDetailsList;
+                resultArgs.ResultData = obj.userDetailList;
 
             }
             else
@@ -61,11 +60,11 @@ namespace PAS.Serivce.Implementation
             return resultArgs;
         }
 
-        public async Task<ResultDataArgs> GetPrjAllotmentDetailsByIdAsync(int Id)
+        public async Task<ResultDataArgs> GetUserDetailsByIdAsync(int Id)
         {
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            PrjAllotmentDTO obj = await _prjAllomentRepository.GetPrjAllotmentDetailsByIdAsync(Id);
+            UserDetailDTO obj = await _userRepository.GetUserDetailsByIdAsync(Id);
             if (obj != null)
             {
                 resultArgs.StatusCode = 200;
@@ -81,11 +80,12 @@ namespace PAS.Serivce.Implementation
             return resultArgs;
         }
 
-        public async Task<ResultDataArgs> SavePrjAllotmentDetailsAsync(PrjAllotmentDTO prjAllotment)
+        public async Task<ResultDataArgs> SaveUserDetailsAsync(UserDetailDTO user)
         {
+
             ResultDataArgs resultArgs = new ResultDataArgs();
 
-            int result = await _prjAllomentRepository.SavePrjAllotmentDetailsAsync(prjAllotment);
+            int result = await _userRepository.SaveUserDetailsAsync(user);
             if (result == 0)
             {
                 resultArgs.StatusCode = 200;

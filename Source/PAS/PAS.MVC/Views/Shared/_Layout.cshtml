@@ -37,6 +37,11 @@
     <link href="~/css/lib/bootstrap.min.css" rel="stylesheet">
     <link href="~/css/lib/helper.css" rel="stylesheet">
     <link href="~/css/style.css" rel="stylesheet">
+
+    <script src="~/js/scripts.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+
 </head>
 
 <body>
@@ -56,9 +61,9 @@
                     <li class="active"><a asp-controller="Dashboard" asp-action="Dashboard"><i class="ti-view-grid"></i> Dashboard </a></li>
                     <li><a asp-controller="Administrations" asp-action="Administrations"><i class="ti-id-badge"></i> Administrations</a></li>
                     <li><a asp-controller="ProjectAllotment" asp-action="MentorGrid"><i class="ti-view-grid"></i> MentorDetails</a></li>
-                    <li><a asp-controller="ProjectAllotment" asp-action="ProjectGride"><i class="ti-view-grid"></i>Project Details</a></li>
-                    <li><a href="chartjs.html">Allotment Project</a></li>
-      
+                    <li><a asp-controller="ProjectAllotment" asp-action="ProjectGrid"><i class="ti-view-grid"></i>Project Details</a></li>
+                  @*  <li><a href="chartjs.html">Allotment Project</a></li>*@
+                
                     <li><a asp-controller="Report" asp-action="Report"><i class="ti-pencil-alt"></i>Reports</a></li>
                  
                     <li><a asp-controller="Login" asp-action="Login"><i class="ti-close"></i>Logout</a></li>
@@ -306,7 +311,6 @@
         </div>
     </div>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <!-- JS Grid Scripts Start-->
@@ -326,7 +330,6 @@
 
     @*<script src="https://momentjs.com/downloads/moment.js"></script>*@
     <script src="~/js/lib/bootstrap.min.js"></script>
-    <script src="~/js/scripts.js"></script>
     <script src="~/js/lib/jquery.nanoscroller.min.js"></script>
     <!-- nano scroller -->
     <script src="~/js/lib/menubar/sidebar.js"></script>

@@ -8,7 +8,7 @@
                 </div>
                 <div class="card-body">
 
-                    <input type="hidden" id="hdnMentorId" value="@ViewBag.UserId" />
+                    <input type="hidden" id="hdnMentorId" value="@ViewBag.MentorId" />
                     <div class="horizontal-form-elements">
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
@@ -51,3 +51,13 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function () {
+
+        if (@ViewBag.MentorId> 0) {
+            GetMentorDetailsById(@ViewBag.MentorId);
+        }
+    });
+
+</script>

@@ -5,8 +5,7 @@
         <div class="card">
             <div class="card-title">
                 <h4> Mentor Details</h4>
-
-            </div>
+                </div>
             <div class="card-body">
                 <div class="jsgrid-table-panel">
                     <div id="tblMentorId" class="jsgrid" style="position: relative; height: 100%; width: 100%;">
@@ -14,13 +13,12 @@
                             <table class="jsgrid-table">
                                 <thead>
                                     <tr class="jsgrid-header-row">
-                                       
+
                                         <th class="jsgrid-header-cell jsgrid-align-center">Name</th>
                                         <th class="jsgrid-header-cell jsgrid-align-center">Email</th>
                                         <th class="jsgrid-header-cell jsgrid-align-center">MobileNo</th>
-                                       
                                         <th class="jsgrid-header-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;">
-                                            <a asp-controller=" ProjectAllotment" asp-action="MentorDetails">  <span class="jsgrid-button jsgrid-mode-button jsgrid-insert-mode-button ti-plus" type="button" title=""></span></a>
+                                            <a asp-controller=" ProjectAllotment" asp-action="MentorDetails"><span class="jsgrid-button jsgrid-mode-button jsgrid-insert-mode-button ti-plus" type="button" title=""></span></a>
                                         </th>
                                     </tr>
 
@@ -28,19 +26,22 @@
                                 <tbody></tbody>
                             </table>
                         </div>
-
-
-                    </div>
+                      </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
 
-<script src="~/js/pas/administration.js"></script>
+<script src="~/js/pas/mentor.js"></script>
 <script>
+
     $(document).ready(function () {
-        GetCandidateDetails();
+        debugger;
+        GetMentorDetails();
     });
 
 </script>

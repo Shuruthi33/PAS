@@ -1,7 +1,8 @@
 using PAS.DBEngine;
-using PAS.Repository.Implementation;
+using PAS.Repository.Repository;
 using PAS.Repository.Interface;
-using PAS.Serivce.Implementation;
+using PAS.Repository.Repository;
+using PAS.Serivce.Serivce;
 using PAS.Serivce.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -47,6 +48,13 @@ builder.Services.AddTransient<IProjectService,ProjectService>();
 //sql projectAllotment service repository
 builder.Services.AddTransient<IPrjAllotmentRepository, PrjAllotmentRepository>();
 builder.Services.AddTransient<IPrjAllotmentService,PrjAllotmentService>();
+
+//login service repository
+builder.Services.AddTransient<ILoginRepository, LoginRepository>();
+builder.Services.AddTransient<ILoginService, LoginService>();
+
+
+
 
 var app = builder.Build();
 

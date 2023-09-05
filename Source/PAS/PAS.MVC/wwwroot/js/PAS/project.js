@@ -1,7 +1,7 @@
 ﻿
 // GET the Project Details
 const GetProjectDetails = async () => {
-
+    debugger;
     var Response;
 
     try {
@@ -15,6 +15,7 @@ const GetProjectDetails = async () => {
                 if (data != null && data.statusCode == 200) {
                     if (data.resultData.length > 0) {
                         var tbodydata = '';
+                        debugger;
                         $.each(data.resultData, function (key, value) {
                             tbodydata += '<tr class="jsgrid-row">';
                             tbodydata += '<td class="jsgrid-cell">' + value.prjTitle + '</td>';

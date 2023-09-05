@@ -21,7 +21,7 @@ namespace PAS.Model.Output
         public string? Address { get; set; }
 
         public DateTime RegDate { get; set; }
-        public DateTime DOB { get; set; }
+        public DateTime? DOB { get; set; }
         public int GenderId { get; set; }
         public int MobileNo { get; set; }
         public string? Qualification { get; set; }
